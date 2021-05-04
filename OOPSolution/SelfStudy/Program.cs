@@ -55,6 +55,7 @@ namespace SelfStudy
 
             Cat Kitty2 = new Cat("멍멍이", "검정색");
             string name = Kitty2._Name;
+            Console.WriteLine(name);
             Kitty2.Color = "검정색";
             Kitty2.Meow();
 

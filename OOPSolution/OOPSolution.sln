@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTestApp", "ClassTestAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfStudy", "SelfStudy\SelfStudy.csproj", "{A9616D8F-FA2D-45D0-9CE9-0CED5E28C12A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceTestApp", "InterfaceTestApp\InterfaceTestApp.csproj", "{AEC97954-C25A-441F-8600-911FDC075C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingInterfaceTestApp", "UsingInterfaceTestApp\UsingInterfaceTestApp.csproj", "{2EF2DB29-69BA-493C-BBE2-6D95306537B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A9616D8F-FA2D-45D0-9CE9-0CED5E28C12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9616D8F-FA2D-45D0-9CE9-0CED5E28C12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9616D8F-FA2D-45D0-9CE9-0CED5E28C12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC97954-C25A-441F-8600-911FDC075C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC97954-C25A-441F-8600-911FDC075C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC97954-C25A-441F-8600-911FDC075C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC97954-C25A-441F-8600-911FDC075C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF2DB29-69BA-493C-BBE2-6D95306537B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF2DB29-69BA-493C-BBE2-6D95306537B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF2DB29-69BA-493C-BBE2-6D95306537B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF2DB29-69BA-493C-BBE2-6D95306537B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

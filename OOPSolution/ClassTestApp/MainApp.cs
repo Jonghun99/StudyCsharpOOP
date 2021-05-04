@@ -16,6 +16,7 @@ namespace ClassTestApp
             Animal a = new Cat("네로", "하얀색");
             Cat b = a as Cat;
             a.Sleep();
+            
 
             Cat nero = new Cat("네로");
             nero.Age = 12;
@@ -23,6 +24,8 @@ namespace ClassTestApp
             nero.Color = "검정";
             nero.Meow();
             nero.Sleep();
+
+            //Cat allcat = new Animal(); 은 안된다
 
             var list = ("Cat", "Dog", "Pig");
             Console.Write($"튜플 첫번째 : {list.Item1}");

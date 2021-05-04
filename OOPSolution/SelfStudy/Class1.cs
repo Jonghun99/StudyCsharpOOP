@@ -27,17 +27,17 @@ namespace SelfStudy
         }
     }
 
-    class MainApp
-    {
-        static void Main(string)
-        {
-            Console.WriteLine($"{Global.Count}");
+    //class MainApp
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        Console.WriteLine($"{Global.Count}");
 
-            new ClassA();
-            new ClassA();
-            new ClassB();
+    //        new ClassA();
+    //        new ClassA();
+    //        new ClassB();
 
-            Console.WriteLine($"{Global.Count}");
-        }
-    }
+    //        Console.WriteLine($"{Global.Count}");
+    //    }
+    //}
 }
