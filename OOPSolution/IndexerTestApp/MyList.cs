@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IndexerTestApp // indexer는 객체를 배열처럼 사용할수 있도록 도와줌
 {
-    class MyList
+    class MyList : IEnumerable, IEnumerator
     {
         private int[] array;
 
