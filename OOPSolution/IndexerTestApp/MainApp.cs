@@ -19,6 +19,10 @@ namespace IndexerTestApp
                 Console.WriteLine(list[i]);
             }
 
+            foreach (var item in collection)  // list는 배열이 아니므로 그냥 foreach쓰는건 불가능(인덱서를 통해 만든 객체의 가짜 배열)
+            {
+
+            }
         }
     }
 }
