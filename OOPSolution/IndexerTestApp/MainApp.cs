@@ -14,14 +14,16 @@ namespace IndexerTestApp
                 list[i] = (i + 1);
             }
 
+            Console.WriteLine("for문 =====>");
             for (int i = 0; i < list.Length; i++)
             {
                 Console.WriteLine(list[i]);
             }
 
-            foreach (var item in collection)  // list는 배열이 아니므로 그냥 foreach쓰는건 불가능(인덱서를 통해 만든 객체의 가짜 배열)
+            Console.WriteLine("foreach문 =====>");
+            foreach (var item in list)  // list는 배열이 아니므로 그냥 foreach쓰는건 불가능(인덱서를 통해 만든 객체의 가짜 배열)
             {
-
+                Console.WriteLine(item);
             }
         }
     }

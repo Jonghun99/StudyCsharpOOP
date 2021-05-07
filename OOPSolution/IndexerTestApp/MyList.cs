@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,7 @@ namespace IndexerTestApp // indexer는 객체를 배열처럼 사용할수 있�
     class MyList : IEnumerable, IEnumerator
     {
         private int[] array;
+        private int position = -1; // 배열의 현재 위치값
 
         public int this [int index] // == MyList[i] == array[i]
         {
@@ -35,9 +37,32 @@ namespace IndexerTestApp // indexer는 객체를 배열처럼 사용할수 있�
             }
         }
 
+        // IEnumerator 메서드
+        public object Current
+        {
+            get { return array[position]; } // 현재값 foreach에만 필요
+        }
         public MyList()
         {
             array = new int[3];
+        }
+
+        // IEnumerable 메서드
+        public IEnumerator GetEnumerator()
+        {
+            return this;
+        }
+
+        // IEnumerator
+        public bool MoveNext()
+        {
+            position++;
+            return (position < array.Length);
+        }
+        // IEnumerator
+        public void Reset()
+        {
+            position = -1;   
         }
     }
 }

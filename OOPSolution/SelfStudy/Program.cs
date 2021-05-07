@@ -48,7 +48,7 @@ namespace SelfStudy
     }
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Cat Kitty = new Cat("야옹이", "노랑색");
             Kitty.Meow();
