@@ -31,10 +31,14 @@ namespace DelegateChainApp
 
             // 익명메서드 정의
             Calculate calc;
-            calc = delegate (int a, int b)
+            /*calc = delegate (int a, int b)
             {
                 return a + b;
-            };
+            };*/
+
+            // 람다식(익명 메서드를 간단하게 표현)
+            calc = (a, b) => a + b;
+
             // 실행
             Console.WriteLine($"a + b = {calc(3,5)}");
 

@@ -25,23 +25,39 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueTestApp", "QueueTestAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexerTestApp", "IndexerTestApp\IndexerTestApp.csproj", "{F4718F7C-84B9-4FAF-A737-2F5E9FC5A022}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTestApp", "GenericTestApp\GenericTestApp.csproj", "{9E4E5EB8-6751-446C-8E2A-22BE9AA5DECE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericTestApp", "GenericTestApp\GenericTestApp.csproj", "{9E4E5EB8-6751-446C-8E2A-22BE9AA5DECE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTestApp2", "GenericTestApp2\GenericTestApp2.csproj", "{6EE58FB6-C9D3-4BFE-A215-738B9A1947C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericTestApp2", "GenericTestApp2\GenericTestApp2.csproj", "{6EE58FB6-C9D3-4BFE-A215-738B9A1947C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMyListApp", "GenericMyListApp\GenericMyListApp.csproj", "{53FE9D51-6ACB-4295-8BA3-DC56C74D6647}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericMyListApp", "GenericMyListApp\GenericMyListApp.csproj", "{53FE9D51-6ACB-4295-8BA3-DC56C74D6647}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCollectionApp", "GenericCollectionApp\GenericCollectionApp.csproj", "{553092C2-1F41-46EE-919D-5F21403239BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericCollectionApp", "GenericCollectionApp\GenericCollectionApp.csproj", "{553092C2-1F41-46EE-919D-5F21403239BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionTestApp", "ExceptionTestApp\ExceptionTestApp.csproj", "{78C5403D-DB4C-4439-8D87-9323C9324470}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionTestApp", "ExceptionTestApp\ExceptionTestApp.csproj", "{78C5403D-DB4C-4439-8D87-9323C9324470}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateTestApp", "DelegateTestApp\DelegateTestApp.csproj", "{307E9AC5-B2B2-4894-991C-ADBD749A79FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateTestApp", "DelegateTestApp\DelegateTestApp.csproj", "{307E9AC5-B2B2-4894-991C-ADBD749A79FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateChainApp", "DelegateChainApp\DelegateChainApp.csproj", "{DF71C437-BAE6-4342-A3A5-7104E2B3E493}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateChainApp", "DelegateChainApp\DelegateChainApp.csproj", "{DF71C437-BAE6-4342-A3A5-7104E2B3E493}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlerTestApp", "EventHandlerTestApp\EventHandlerTestApp.csproj", "{27E6620F-552C-404A-8FC8-85F4B67ED074}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHandlerTestApp", "EventHandlerTestApp\EventHandlerTestApp.csproj", "{27E6620F-552C-404A-8FC8-85F4B67ED074}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlerCheckApp", "EventHandlerCheckApp\EventHandlerCheckApp.csproj", "{545214E3-4ACE-438D-A921-4905C489BFEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHandlerCheckApp", "EventHandlerCheckApp\EventHandlerCheckApp.csproj", "{545214E3-4ACE-438D-A921-4905C489BFEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaTest", "LambdaTest\LambdaTest.csproj", "{15AE33DD-2D8C-4E6B-A5BA-F826D207D353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTestApp", "LinqTestApp\LinqTestApp.csproj", "{187F0215-2182-4D62-8DCA-67FD297D1726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionTestApp", "ReflectionTestApp\ReflectionTestApp.csproj", "{3AF268F8-93A2-4EB4-A4DD-8DEC991C75DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynCreationTestApp", "DynCreationTestApp\DynCreationTestApp.csproj", "{A1826246-96D0-4E52-971F-89519400D5B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeTestApp", "AttributeTestApp\AttributeTestApp.csproj", "{7DB783B4-F92C-456E-A2B3-6C3A025D5099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcUnitTest", "TestProject1\CalcUnitTest.csproj", "{4BF795FB-FF8C-45EB-8B71-610BED4BCE9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDirectoryTestApp", "FileDirectoryTestApp\FileDirectoryTestApp.csproj", "{848A816D-BCDE-437C-8960-DD1B0554983A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReadingTestApp", "FileReadingTestApp\FileReadingTestApp.csproj", "{99B1D78B-E029-4933-AE2F-474D389CC00E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +145,38 @@ Global
 		{545214E3-4ACE-438D-A921-4905C489BFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{545214E3-4ACE-438D-A921-4905C489BFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{545214E3-4ACE-438D-A921-4905C489BFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15AE33DD-2D8C-4E6B-A5BA-F826D207D353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AE33DD-2D8C-4E6B-A5BA-F826D207D353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AE33DD-2D8C-4E6B-A5BA-F826D207D353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AE33DD-2D8C-4E6B-A5BA-F826D207D353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187F0215-2182-4D62-8DCA-67FD297D1726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187F0215-2182-4D62-8DCA-67FD297D1726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187F0215-2182-4D62-8DCA-67FD297D1726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187F0215-2182-4D62-8DCA-67FD297D1726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF268F8-93A2-4EB4-A4DD-8DEC991C75DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF268F8-93A2-4EB4-A4DD-8DEC991C75DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF268F8-93A2-4EB4-A4DD-8DEC991C75DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF268F8-93A2-4EB4-A4DD-8DEC991C75DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1826246-96D0-4E52-971F-89519400D5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1826246-96D0-4E52-971F-89519400D5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1826246-96D0-4E52-971F-89519400D5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1826246-96D0-4E52-971F-89519400D5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB783B4-F92C-456E-A2B3-6C3A025D5099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB783B4-F92C-456E-A2B3-6C3A025D5099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB783B4-F92C-456E-A2B3-6C3A025D5099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB783B4-F92C-456E-A2B3-6C3A025D5099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF795FB-FF8C-45EB-8B71-610BED4BCE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF795FB-FF8C-45EB-8B71-610BED4BCE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF795FB-FF8C-45EB-8B71-610BED4BCE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF795FB-FF8C-45EB-8B71-610BED4BCE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848A816D-BCDE-437C-8960-DD1B0554983A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848A816D-BCDE-437C-8960-DD1B0554983A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848A816D-BCDE-437C-8960-DD1B0554983A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848A816D-BCDE-437C-8960-DD1B0554983A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B1D78B-E029-4933-AE2F-474D389CC00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B1D78B-E029-4933-AE2F-474D389CC00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B1D78B-E029-4933-AE2F-474D389CC00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B1D78B-E029-4933-AE2F-474D389CC00E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -40,6 +40,10 @@ namespace PropertyTestApp
             {
                 return age;
             }
+
+            // 람다식으로?
+            // get => age;
+
             set
             {
                 if (value < 0)
@@ -55,6 +59,8 @@ namespace PropertyTestApp
                     this.age = value;
                 }
             }
+
+            // 람다식 불가능
         }
 
         //public string GetName() // 값을 사용

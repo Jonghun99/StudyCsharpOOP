@@ -4,6 +4,12 @@ namespace EventHandlerTestApp
 {
     class MainApp
     {
+        // MyHandler 메서드
+        private static void MyHandler(string message)
+        {
+            Console.Write(message);
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("3,6,9 3,6,9!");
@@ -17,13 +23,6 @@ namespace EventHandlerTestApp
             {
                 notifier.DoSomething(i); // 메서드 실행
             }
-        }
-
-        // MyHandler 메서드
-        // DoSomething을 실행해줌
-        private static void MyHandler(string message)
-        {
-            Console.Write(message);
         }
     }
 }
