@@ -91,6 +91,7 @@ namespace EventHandlerCheckApp
             this.Controls.Add(this.label1);
             this.Name = "MainForm";
             this.Text = "Event App";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.Resize += new System.EventHandler(this.MainForm_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
