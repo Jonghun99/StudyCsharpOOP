@@ -15,7 +15,5 @@ namespace ApplicationClassTestApp
         }
 
         public abstract void AbstractMethod(); // 인터페이스 선언과 동일
-
-
     }
 }

@@ -4,7 +4,7 @@ namespace EventHandlerTestApp
 {
     class MainApp
     {
-        // MyHandler 메서드
+        // MyHandler 메서드 
         private static void MyHandler(string message)
         {
             Console.Write(message);

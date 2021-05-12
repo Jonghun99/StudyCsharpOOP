@@ -43,7 +43,7 @@ namespace SelfStudyApp
 
     class MainApp
     {
-        static void Main(string[] args)
+        static void Main11(string[] args)
         {
             MyList list = new MyList();
             for (int i = 0; i < 5; i++)
