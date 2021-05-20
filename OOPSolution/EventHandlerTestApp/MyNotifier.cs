@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EventHandlerTestApp
 {
-    delegate void EventHandler(string message); // 대리자 선언asd
+    delegate void EventHandler(string message); // 대리자 선언
 
     // 클래스 생성
     class MyNotifier
