@@ -18,7 +18,7 @@ namespace EventHandlerTestApp
             int temp = number % 10;
             if (temp != 0 && temp % 3 == 0)
             {
-                SomethingHappend($"짝!\t"); // 이벤트에 메소드 결과값 전달
+                SomethingHappend($"짝!\t"); // 이벤트에 메소드 결과값 전달(출력은 안되는 상황)
             }
             else
             {
